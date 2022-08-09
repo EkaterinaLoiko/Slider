@@ -1,0 +1,48 @@
+body {
+     background: linear-gradient(90deg, #91bc41, #959a61);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.slider {
+    margin: 50px auto;
+    background-color: antiquewhite;
+    width: 650px;
+    border: 2px solid #766363;
+    overflow: hidden;
+}
+
+.slider-line {
+    height: 400px;
+    width: 3250px;
+    display: flex;
+    position: relative;
+    transition: all ease 2s;
+}
+
+img {
+    width: 650px;
+    height: 400px;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 85px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: #5ca762;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #5aa226;
+}
